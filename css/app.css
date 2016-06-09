@@ -1,0 +1,90 @@
+body {
+	background: #CCC;
+	background: url("../img/brownlines.jpg");
+
+}
+
+form  {
+	position: relative;
+	top: 50px;
+}
+
+form * {
+	background: transparent;
+}
+
+form {
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.item {
+	border: 1px solid #555;
+	margin: 5px;
+	height: 27px;
+
+	background: -webkit-linear-gradient(#FFF, rgba(255,255,255,.3)),url('../img/brownlines.jpg');
+	background: -moz-linear-gradient(#FFF, rgba(255,255,255,.3)),url('../img/brownlines.jpg');
+	background: -ms-linear-gradient(#FFF, rgba(255,255,255,.3)),url('../img/brownlines.jpg');
+	background: -o-linear-gradient(#FFF, rgba(255,255,255,.3)),url('../img/brownlines.jpg');
+	background: linear-gradient(#FFF, rgba(255,255,255,.3)),url('../img/brownlines.jpg');
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	-webkit-box-shadow: 5px 5px 10px #84785E;
+	-moz-box-shadow: 5px 5px 10px #84785E;
+	box-shadow: 5px 5px 10px #84785E;
+}
+
+label {
+	display: block;
+	width: 80px;
+	height: 17px;
+	float: left;
+	text-align: center;
+	color: #FFF;
+	padding: 5px;
+
+	background: #17286D url("../img/leaftilesm.jpg");
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	-webkit-box-shadow: inset -5px 0px 5px #3C4D03;
+	-moz-box-shadow: inset -5px 0px 5px #3C4D03;
+	box-shadow: inset -5px 0px 5px #3C4D03;
+
+	text-shadow: 2px 0px 1px #3C4D03;
+
+}
+
+input[type=text] {
+	width: 180px;
+	display: block;
+	float: left;
+	font-size: 16px;
+	padding: 2px;
+	color: #555;
+	outline: solid transparent;
+	text-shadow: 2px 0px 1px #FFF;
+}
+
+.group:before, .group:after {
+	content: "\0020"; 
+	display: block; 
+	height: 0; 
+	overflow: hidden;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+

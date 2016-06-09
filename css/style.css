@@ -1,0 +1,25 @@
+body{
+	background: linear-gradient(#000 25%, #575757 50%, #2d2d2d 75%, #fff 100%) no-repeat;
+	height: 850px;
+	color: #fff;
+}
+
+button {
+	padding: 0px 5px 5px 10px;
+	font-weight: bold;
+	font-size: 2em;
+	color: rgb(255,168,23);
+	text-align: center;
+	background: linear-gradient(rgb(168,68,72) 25%, rgb(50,168,66) 100%);
+	text-shadow: 5px 5px 5px #000;
+	margin-left: 100px;
+}
+
+li {
+	list-style: none;
+}
+
+input {
+	background: #2d2d2d;
+	margin: 5px 0px 10px 0px;
+}

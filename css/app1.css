@@ -1,0 +1,124 @@
+body {
+	height: 400px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#504f82+0,cfc0d6+22,9e2add+50,cfc0d6+61,cfc0d6+61,d579e5+74,cfc0d6+91,cfc0d6+91,971fd3+96,cfc0d6+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#504f82+0,cfc0d6+15,9e2add+32,cfc0d6+43,cfc0d6+43,d579e5+54,d579e5+54,cfc0d6+62,971fd3+74,971fd3+74,cfc0d6+81,a23fd3+92,cfc0d6+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfc0d6+0,cfc0d6+7,9e2add+32,cfc0d6+43,cfc0d6+43,d579e5+54,d579e5+54,cfc0d6+62,971fd3+74,971fd3+74,cfc0d6+81,a23fd3+90,cfc0d6+100 */
+background: rgb(207,192,214); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(207,192,214,1) 0%, rgba(207,192,214,1) 7%, rgba(158,42,221,1) 32%, rgba(207,192,214,1) 43%, rgba(207,192,214,1) 43%, rgba(213,121,229,1) 54%, rgba(213,121,229,1) 54%, rgba(207,192,214,1) 62%, rgba(151,31,211,1) 74%, rgba(151,31,211,1) 74%, rgba(207,192,214,1) 81%, rgba(162,63,211,1) 90%, rgba(207,192,214,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(207,192,214,1) 0%,rgba(207,192,214,1) 7%,rgba(158,42,221,1) 32%,rgba(207,192,214,1) 43%,rgba(207,192,214,1) 43%,rgba(213,121,229,1) 54%,rgba(213,121,229,1) 54%,rgba(207,192,214,1) 62%,rgba(151,31,211,1) 74%,rgba(151,31,211,1) 74%,rgba(207,192,214,1) 81%,rgba(162,63,211,1) 90%,rgba(207,192,214,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(207,192,214,1) 0%,rgba(207,192,214,1) 7%,rgba(158,42,221,1) 32%,rgba(207,192,214,1) 43%,rgba(207,192,214,1) 43%,rgba(213,121,229,1) 54%,rgba(213,121,229,1) 54%,rgba(207,192,214,1) 62%,rgba(151,31,211,1) 74%,rgba(151,31,211,1) 74%,rgba(207,192,214,1) 81%,rgba(162,63,211,1) 90%,rgba(207,192,214,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfc0d6', endColorstr='#cfc0d6',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+form  {
+	position: relative;
+	width: 900px;
+	height: 300px;
+	margin: 0 auto;
+	border: 7px solid #AAA;
+	background: #fff;
+	top: 150px;
+	padding: 20px;
+
+	border-radius: 40px 40px 40px 40px;
+	box-shadow: inset 0px 2px 5px rgba(0,0,0,.4), 1px 1px 5px #DDD;
+}
+
+label {
+	display: block;
+	width: 250px;
+	margin: 0 auto;
+	font-weight: bold;
+	color: #777;
+	padding-top: 15px;
+}
+.grouplabel {
+	margin: 0 auto;
+}
+
+input[type=text], input[type=password], textarea {
+
+	display: block;
+	width: 250px;
+	margin: 0 auto;
+	padding: 5px;
+	background: #EEE;
+	border: 1px solid #FFF;
+	font-family: 'Ubuntu Mono', sans-serif;
+	font-size: 16px;
+	color: #666;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+	background: -webkit-linear-gradient(#FFF,#DDD);
+	background: -moz-linear-gradient(#FFF,#DDD);
+	background: -o-linear-gradient(#FFF,#DDD);
+	background: linear-gradient(#FFF,#DDD);
+	-pie-background: linear-gradient(#FFF, #DDD);
+
+	-webkit-box-shadow: inset 0px 2px 3px #666,inset 0px -5px 3px #EEE;
+	-moz-box-shadow: inset 0px 2px 3px #666,inset 0px -5px 3px #EEE;
+	box-shadow: inset 0px 2px 3px #666,inset 0px -5px 3px #EEE;
+}
+
+input[type=submit] {
+	padding: 5px;
+	background: #666;
+	color: #fff;
+	border: none;
+	float: right;
+	margin-right: 12px;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+	outline: solid red;
+}
+
+input[type=text].required {
+	padding-left: 30px;
+	width: 220px;
+}
+
+input.required {
+	background: url(../img/required.png) no-repeat 5px 5px, -webkit-linear-gradient(#FFF, #DDD);
+	background: url(../img/required.png) no-repeat 5px 5px, -moz-linear-gradient(#FFF, #DDD);
+	background: url(../img/required.png) no-repeat 5px 5px, -o-linear-gradient(#FFF, #DDD);
+	background: url(../img/required.png) no-repeat 5px 5px, -ms-linear-gradient(#FFF, #DDD);
+	background: url(../img/required.png) no-repeat 5px 5px, linear-gradient(#FFF, #DDD);
+
+}
+
+label:hover input[type=text], input[type=password]:hover, textarea:hover {
+		outline: solid orange;
+	}
+
+.group:before, .group:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	zoom: 1;
+}
+
+<!--[if lt IE 9]>
+	<style>
+		input[type=submit] {
+			border-radius: 0px;
+			border-left: none;
+			box-shadow: none;
+		}
+	</style>
+<![endif]-->
